@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import{FaGithubSquare, FaLinkedin} from 'react-icons/fa'
+import{DiGithubAlt } from 'react-icons/di'
+import{CiLinkedin} from 'react-icons/ci'
 import Image from 'next/image'
 
 export default function Home() {
@@ -30,12 +31,12 @@ export default function Home() {
             sguDDGBghdsjoouisdguyhsdvhSJhui
           </p>
           </div>
-          <div className='text-5xl flex justify-center gap-0.5'>
-            <FaGithubSquare/>
-            <FaLinkedin />
+          <div className='text-5xl flex justify-center gap-0.5 text-red-400 '>
+            <DiGithubAlt />
+            <CiLinkedin />
           </div>
           <div>
-            <Image src="/eu.png" alt="" width="400" height="400" className='relative mx-auto bg-gradient-to-b from-red-400 rounded-full'/>
+            <Image src="/avatar.png" alt="avatar" width="400" height="400" className='relative mx-auto bg-gradient-to-b from-red-400 rounded-full'/>
           </div>
         </section>
       </main>
